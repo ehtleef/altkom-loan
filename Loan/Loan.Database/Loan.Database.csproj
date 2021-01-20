@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="Migrations\202101192145_initial_schema.sql" />
-      <EmbeddedResource Include="Migrations\202101192145_initial_schema.sql" />
+      <None Remove="Migrations\202101201600_initial_schema.sql" />
+      <EmbeddedResource Include="Migrations\202101201600_initial_schema.sql" />
     </ItemGroup>
 
 </Project>
