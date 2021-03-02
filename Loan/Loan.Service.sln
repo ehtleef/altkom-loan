@@ -15,13 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{34
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debtor", "Debtor", "{6950E9D8-7E89-4457-BC30-B342D8B40A0B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{4DB6F2DB-2995-4348-8341-BC53C74B4805}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegacyApi", "LegacyApi", "{4DB6F2DB-2995-4348-8341-BC53C74B4805}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loan.Database", "Loan.Database\Loan.Database.csproj", "{2EDEACEA-22BD-4EAA-9A31-A486046BAB23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loan.Database.DbUp", "Loan.Database.DbUp\Loan.Database.DbUp.csproj", "{43CFAA33-32A4-4E60-BEA7-4E0C19DE831B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loan.Database.Runner", "Loan.Database.Runner\Loan.Database.Runner.csproj", "{BBB5C8DB-171C-48FA-98E1-ABA756CE7233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loan.Application", "Loan.Application\Loan.Application.csproj", "{D0346EC5-E903-4C2A-89D2-8BF7FC95E485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BBB5C8DB-171C-48FA-98E1-ABA756CE7233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBB5C8DB-171C-48FA-98E1-ABA756CE7233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB5C8DB-171C-48FA-98E1-ABA756CE7233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0346EC5-E903-4C2A-89D2-8BF7FC95E485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0346EC5-E903-4C2A-89D2-8BF7FC95E485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0346EC5-E903-4C2A-89D2-8BF7FC95E485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0346EC5-E903-4C2A-89D2-8BF7FC95E485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
